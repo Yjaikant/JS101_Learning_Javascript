@@ -1,8 +1,11 @@
-let age = 24;
-
-if(age>=13 && age<=19){
-  console.log("Teenager");
-}
-else if(age>=20 && age<=29){
-  console.log("Twenties");
-}
+let i=1;
+let sum=0;
+let count=0;    
+    while(i<=100){
+        if(i%2===0){
+          sum=sum+i;
+          count++;
+      }
+        i++;
+    }
+    console.log(sum/count); 

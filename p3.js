@@ -1,5 +1,10 @@
-let a = 30
+let i=1;
+    
+    while(i<=100){
+      console.log(i*3);
+      i++;
+      }
+console.log(sum);
 
-if((a%3)==0){
-  console.log("a is multiple of 3");
-}
+    
+    

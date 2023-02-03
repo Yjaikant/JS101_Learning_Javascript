@@ -1,8 +1,5 @@
-
-let mobile = "oneplus";
-let store = "redmi";
-
-if(mobile==store){
-  console.log("I will buy the mobile");
+let i=1;
+while(i<=50){
+  console.log(i);
+  i++;
 }
-else{console.log("I will not able to buy mobile.")}
